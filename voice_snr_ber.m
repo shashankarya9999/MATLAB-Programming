@@ -14,7 +14,7 @@ minValue=min(audio);
 maxValue=max(audio);
 
 % No. of bits for quantization
-bitNum=[8,16,32,64,128,256,512];
+bitNum=[8,16,32,64,128];
 subplot(2,1,2);
 hold on;
 for i=1:length(bitNum)
