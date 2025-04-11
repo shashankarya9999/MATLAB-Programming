@@ -40,7 +40,7 @@ disp(h2);
 % magnitude spectrum for N=21
 subplot(2, 2, 1);
 plot(w1, 20*log10(abs(H1)), 'LineWidth', 1.5);
-title('Magnitude Response of Band-Pass FIR Filter (N = 21)');
+title('Magnitude Response of Band-Reject FIR Filter (N = 21)');
 xlabel('Frequency (Hz)');
 ylabel('Magnitude (dB)');
 ylim([-65 5]);
@@ -48,7 +48,7 @@ ylim([-65 5]);
 % phase spectrum for N=21
 subplot(2, 2, 2);
 plot(w1, angle(H1), 'LineWidth', 1.5);
-title('Phase Response of Band-Pass FIR Filter (N = 21)');
+title('Phase Response of Band-Reject FIR Filter (N = 21)');
 xlabel('Frequency (Hz)');
 ylabel('Phase (radians)');
 
