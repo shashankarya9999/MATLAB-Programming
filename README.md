@@ -6,6 +6,6 @@ Expanding on the labs, I had Analog and Digital Communication Lab and Digital Si
 
 The matlab scripts and outputs that I uploaded till now are from my DSP Lab.
 
-MATLAB Specialization Certificate
+MATLAB Specialization Certificate:
 
 <img src="https://github.com/user-attachments/assets/fe9d3d9a-0efd-4380-903d-01e53b941a2e" width="650" height="500">
