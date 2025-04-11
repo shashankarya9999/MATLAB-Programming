@@ -4,7 +4,7 @@ fs = 8e3;
 % cutoff frequency
 fc = 2e3;
 % filter length 
-N=41;
+N=21;
 % filter order
 M = N-1;
 % cutoff index in frequency domain
@@ -45,3 +45,5 @@ plot(w,angle(Hf), 'r', 'LineWidth',1.5);
 xlabel('Frequency(Hz)');
 ylabel('Phase(radians)');
 title(['Phase Response (N = ',num2str(N),')']);
+
+sgtitle("FIR Low-pass filter design using Frequency Sampling method");

@@ -11,7 +11,7 @@ wl = 2*pi*(fh/fs);
 % normalized upper cutoff frequency
 wh = 2*pi*(fl/fs);
 % filter length
-N=41;
+N=21;
 % N = input('Enter filter length: ');
 % filter order
 M = N-1;
@@ -70,3 +70,5 @@ ylabel('Phase(radians)');
 title(['Phase Response (N = ',num2str(N),')']);
 legend('Rectangular','Hamming','Hann','Blackman');
 hold off;
+
+sgtitle("FIR Band-pass filter design using Window method");

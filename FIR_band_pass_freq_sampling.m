@@ -6,7 +6,7 @@ fl = 2.5e3;
 % upper cutoff frequency
 fu = 3e3;
 % filter length 
-N=41;
+N=21;
 % filter order
 M = N-1;
 % cutoff index in frequency domain
@@ -49,5 +49,4 @@ xlabel('Frequency(Hz)');
 ylabel('Phase(radians)');
 title(['Phase Response (N = ',num2str(N),')']);
 
-
-
+sgtitle("FIR Band-pass filter design using Frequency Sampling method");

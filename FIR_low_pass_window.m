@@ -5,7 +5,7 @@ fs = 8e3;
 % cutoff frequency
 fc = 2e3;
 % filter length 
-N=41;
+N=21;
 % N = input('Enter filter length: ');
 % normalized cutoff frequency
 wc = 2*pi*(fc/fs);
@@ -72,3 +72,5 @@ ylabel('Phase(radians)');
 title(['Phase Response (N = ',num2str(N),')']);
 legend('Rectangular','Hamming','Hann','Blackman');
 hold off;
+
+sgtitle("FIR Low-pass filter design using Window method");
