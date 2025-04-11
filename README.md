@@ -5,3 +5,5 @@ I am an electronics undergraduate student and have some experience in MATLAB. I 
 Expanding on the labs, I had Analog and Digital Communication Lab and Digital Signal Processing(DSP) Lab which used MATLAB and its filter design tools. 
 
 The matlab scripts and outputs that I uploaded till now are from my DSP Lab.
+
+![MATLAB_specialization-1](https://github.com/user-attachments/assets/fe9d3d9a-0efd-4380-903d-01e53b941a2e)
