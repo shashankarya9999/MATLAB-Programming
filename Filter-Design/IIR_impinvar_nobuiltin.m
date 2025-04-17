@@ -49,6 +49,7 @@ xlabel('Frequency (Hz)');
 ylabel('Magnitude (dB)');
 title('Magnitude Response of Butterworth Low-pass Filter');
 ylim([-80 5]);
+
 subplot(2,1,2);
 plot(W, angle(H), 'r', 'LineWidth', 1.5);
 xlabel('Frequency (Hz)');
@@ -56,5 +57,3 @@ ylabel('Phase (radians)');
 title('Phase Response of Butterworth Low-pass Filter');
 
 sgtitle('IIR Low-pass filter design using Impulse Invariance Method');
-
-
