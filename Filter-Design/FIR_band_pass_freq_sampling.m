@@ -1,4 +1,6 @@
 clear;
+clc;
+
 % sampling frequency
 fs = 8e3;
 % lower cutoff frequency
