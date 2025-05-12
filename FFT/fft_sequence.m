@@ -1,4 +1,6 @@
-clc; clear; close all;
+clc; 
+clear; 
+close all;
 
 function X = dit_fft(x)
     N = length(x);
