@@ -57,6 +57,7 @@ for k = 1:length(t)
             % Compute FFT
             fft_result = fft(current_window, N);
             fft_magnitude = abs(fft_result(1:N/2+1));
+            
             % Normalize
             fft_magnitude = fft_magnitude/max(fft_magnitude); 
             
