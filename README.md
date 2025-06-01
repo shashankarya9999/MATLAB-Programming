@@ -4,4 +4,4 @@ I am an electronics undergraduate student and have some experience in MATLAB. I 
 
 MATLAB Specialization Certificate:
 
-<img src="https://github.com/user-attachments/assets/fe9d3d9a-0efd-4380-903d-01e53b941a2e" width="650" height="500">
+<img src="https://github.com/user-attachments/assets/fe9d3d9a-0efd-4380-903d-01e53b941a2e" width="500" height="400">
