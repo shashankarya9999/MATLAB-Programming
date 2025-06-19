@@ -15,6 +15,7 @@ L = length(x);
 H = [h zeros(1,N-M)];
 num_segments = ceil(L/N);
 Y_ = zeros(1, L+M-1);
+
 for i = 1:num_segments
     start_index = (i-1)*N + 1;
     end_index = min(i*N, L);
@@ -22,6 +23,7 @@ for i = 1:num_segments
     y = conv(segment, H);
     Y_(start_index:start_index+length(y)-1) = Y_(start_index:start_index+length(y)-1)+y;
 end
+
 subplot(2,1,2);
 stem(Y_);
 disp(Y_);
