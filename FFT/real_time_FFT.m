@@ -1,4 +1,5 @@
 % Real-Time FFT Comparison for Two Sinusoids
+
 clear; close all; clc;
 
 % Sampling frequency (Hz)
@@ -68,6 +69,7 @@ for k = 1:length(t)
             set(h_plots(i), 'XData', f_axis, 'YData', fft_magnitude);
         end
     end
+    
     % drawnow updates figures and processes any pending callbacks. 
     % drawnow limitrate limits the number of updates to 20 frames per second.
     % Use this command if you are updating graphics objects in a loop and do not need to see every update on the screen.
