@@ -4,7 +4,7 @@
 x = [1 2 3 4 5 6 7 8 9 10 11 12];
 h = [4 3 9 5];
 N = 4; 
-Y=conv(x,h);
+Y = conv(x,h);
 disp(Y);
 subplot(2,1,1);
 stem(Y);
