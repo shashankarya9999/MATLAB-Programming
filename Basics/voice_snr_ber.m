@@ -31,7 +31,7 @@ ylabel('SNR (dB)');
 legend('show');
 grid on;
 
-% function for quantize
+% function for quantization
 function quantizedSignal = quantize(signal, num, minValue, maxValue)
     % Calculate the step size for quantization
     stepSize = (maxValue - minValue) / (2^num - 1);
