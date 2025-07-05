@@ -1,5 +1,6 @@
 % FIR band-pass filter of length 21 and 41
 clear;
+clc;
 % sampling frequency
 fs = 8e3;
 % lower cutoff frequency
